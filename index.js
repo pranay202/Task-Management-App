@@ -13,7 +13,6 @@ const generateNewCard = (taskData) => `
    <h5 class="card-title mt-3 fw-bolder text-primary">${taskData.taskTitle}</h5>
    <p class="card-text">${taskData.taskDescription}</p>
    <a href="#" class="btn btn-primary">${taskData.taskType}</a>
-   <a href="#" class="btn btn-warning mr-3">${taskData.taskTimer}<a>
   </div>
   </div>
   </div>
